@@ -127,3 +127,6 @@ body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 
 /* Sidebar photo: original proportions, no circle, no crop */
 .author__avatar img { aspect-ratio: auto !important; object-fit: contain !important; width: 100%; height: auto !important; max-width: 220px; border-radius: 10px !important; padding: 0 !important; border: 1px solid var(--global-dark-border-color); }
+
+/* Sidebar photo (the img itself has class .author__avatar): original proportions, rounded corners */
+img.author__avatar, .author__avatar img { aspect-ratio: auto !important; object-fit: contain !important; width: 100% !important; height: auto !important; max-width: 220px !important; border-radius: 10px !important; padding: 0 !important; border: 1px solid var(--global-dark-border-color) !important; }
