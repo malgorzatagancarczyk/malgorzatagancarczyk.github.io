@@ -8,10 +8,11 @@ date: 2020-08-01
 venue: 'BA thesis, Faculty of Polish Studies, Jagiellonian University in Kraków'
 paperurl: '/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf'
 pdf: '/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf'
+doi: '10.5281/zenodo.23298226'
 dissertation_institution: 'Jagiellonian University'
 lang: pl
 keywords: [narratology, focalization, narrative identity, emersion, Łukasz Orbitowski, contemporary Polish fiction]
-citation: 'Gancarczyk, M. (2020). <i>Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego Kult</i> [BA thesis, Jagiellonian University, Kraków]. Supervisor: dr Michalina Kmiecik.'
+citation: 'Gancarczyk, M. (2020). <i>Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego Kult</i> [BA thesis, Jagiellonian University, Kraków]. Supervisor: dr Michalina Kmiecik. https://doi.org/10.5281/zenodo.23298226'
 ---
 
 **English title:** <i>Narrative Strategy and the Illusion of Self-Interpretation in Łukasz Orbitowski’s Kult</i> (thesis in Polish)
@@ -24,4 +25,4 @@ The thesis examines the narrative strategy of Łukasz Orbitowski’s novel <i>Ku
 
 **Keywords:** narratology, focalization, narrative identity, emersion, Łukasz Orbitowski, contemporary Polish fiction
 
-[Read the full thesis (PDF)](/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf)
+[Read the full thesis (PDF)](/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf) · Archived on Zenodo: [doi:10.5281/zenodo.23298226](https://doi.org/10.5281/zenodo.23298226)
