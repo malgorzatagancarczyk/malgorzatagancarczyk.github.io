@@ -29,7 +29,7 @@ author:
   bio              : "Highlander from Łącko. Literary scholar exploring identity, trauma and narrative — and the Bronze Age past of my home valley."
   location         : "Łącko, Poland"
   employer         : 
-  uri              : # URL
+  "User.com (Positive Group)"
   email            : 
 
   # Academic websites
@@ -90,6 +90,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  theses:
+    title: 'Theses'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
