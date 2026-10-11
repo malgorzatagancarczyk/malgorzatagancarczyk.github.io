@@ -4,6 +4,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "CV"
+    url: /cv/
+
   # Uncomment when the first essay is published:
   # - title: "Texts"
   #   url: /year-archive/
