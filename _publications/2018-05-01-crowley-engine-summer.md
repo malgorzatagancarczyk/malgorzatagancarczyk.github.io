@@ -7,6 +7,14 @@ excerpt: 'How narrative constructs individual and collective identity in John Cr
 date: 2018-05-01
 venue: 'Creatio Fantastica, 1(58), pp. 155–175'
 paperurl: 'https://doi.org/10.5281/zenodo.1419554'
+journal: 'Creatio Fantastica'
+volume: '58'
+issue: '1'
+firstpage: '155'
+lastpage: '175'
+doi: '10.5281/zenodo.1419554'
+lang: pl
+keywords: [John Crowley, Engine Summer, narratology, narrative identity, postmodernism, science fiction]
 citation: 'Gancarczyk, M. (2018). &quot;Późne lato Johna Crowleya jako postmodernistyczna wizja procesualnej koncepcji tożsamości.&quot; <i>Creatio Fantastica</i>, 1(58), 155–175. https://doi.org/10.5281/zenodo.1419554'
 ---
 
