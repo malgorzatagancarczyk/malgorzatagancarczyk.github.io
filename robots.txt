@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://malgorzatagancarczyk.github.io/sitemap.xml
