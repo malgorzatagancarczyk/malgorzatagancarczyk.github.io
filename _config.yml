@@ -154,7 +154,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : "Małgorzata Maria Gancarczyk"
   links: # An array of links to social media profiles
-
+    - "https://orcid.org/0009-0009-3093-7439"
 
 # GA4 measurement ID (G-XXXXXXX). Loaded only after cookie consent - see _includes/footer/custom.html
 ga4_id                   : "G-8MDEWRD03R"
