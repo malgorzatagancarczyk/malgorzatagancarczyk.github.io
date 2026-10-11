@@ -105,7 +105,7 @@ h1, h2, h3, h4, .masthead, .greedy-nav, .page__title, .archive__item-title, .aut
 /* Fixes after first live review */
 .page__footer { position: static; float: none; margin-top: 4em; }
 body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
-.author__avatar img { aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 0%; border-radius: 50%; }
+.author__avatar img { aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 50%; border-radius: 50%; }
 .author__urls li { white-space: normal; overflow: visible; text-overflow: clip; }
 
 /* Compact one-line footer */
