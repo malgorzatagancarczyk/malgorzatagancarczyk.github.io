@@ -124,3 +124,6 @@ body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 /* Keep sidebar inside the page so the footer never cuts it */
 #main { display: flow-root; }
 .page__footer { clear: both; }
+
+/* Sidebar photo: original proportions, no circle, no crop */
+.author__avatar img { aspect-ratio: auto !important; object-fit: contain !important; width: 100%; height: auto !important; max-width: 220px; border-radius: 10px !important; padding: 0 !important; border: 1px solid var(--global-dark-border-color); }
