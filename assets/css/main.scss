@@ -101,3 +101,9 @@ h1, h2, h3, h4, .masthead, .greedy-nav, .page__title, .archive__item-title, .aut
 .dl-firm__text p { margin: 0; color: var(--dl-text-2); }
 .dl-firm img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 12px; }
 @media (max-width: 40rem) { .dl-hero h1 { font-size: 2.4rem; } .dl-narrow h1 { font-size: 2rem; } .dl-pub { grid-template-columns: 1fr; gap: .25rem; } .dl-banner { height: 16rem; } }
+
+/* Fixes after first live review */
+.page__footer { position: static; float: none; margin-top: 4em; }
+body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
+.author__avatar img { aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 30%; border-radius: 50%; }
+.author__urls li { white-space: normal; overflow: visible; text-overflow: clip; }
