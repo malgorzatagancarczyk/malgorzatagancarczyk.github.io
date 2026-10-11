@@ -146,8 +146,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "og-forest.jpg" # Social media default site image (1200x630)
+og_description           : "Małgorzata Maria Gancarczyk — literary scholar in a forest" # alt text for og_image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

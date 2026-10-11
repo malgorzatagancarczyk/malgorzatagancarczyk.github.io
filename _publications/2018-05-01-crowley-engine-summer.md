@@ -1,5 +1,6 @@
 ---
 title: "Późne lato Johna Crowleya jako postmodernistyczna wizja procesualnej koncepcji tożsamości"
+seo_title: "Crowley’s Engine Summer and processual identity (PL)"
 collection: publications
 category: manuscripts
 permalink: /publication/2018-crowley-engine-summer

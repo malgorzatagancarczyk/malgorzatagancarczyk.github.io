@@ -1,5 +1,6 @@
 ---
 title: "Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego <i>Kult</i>"
+seo_title: "Narrative strategy in Orbitowski’s Kult — BA thesis (PL)"
 collection: publications
 category: theses
 permalink: /publication/2020-ba-thesis-orbitowski-kult
