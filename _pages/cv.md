@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-description: "CV of Małgorzata Maria Gancarczyk — literary scholar (Jagiellonian University): education, publications, research interests and professional experience."
+description: "CV of Małgorzata Maria Gancarczyk — independent researcher, BA in Polish Studies (Jagiellonian University): education, publications, research interests and professional experience."
 permalink: /cv/
 author_profile: true
 redirect_from:

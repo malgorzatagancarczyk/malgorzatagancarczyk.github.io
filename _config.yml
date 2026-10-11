@@ -26,7 +26,7 @@ author:
   avatar           : "portrait-main.jpg"
   name             : "Małgorzata Maria Gancarczyk"
   pronouns         : # example: "she/her"  
-  bio              : "Highlander from Łącko. Literary scholar exploring identity, trauma and narrative — and the Bronze Age past of my home valley."
+  bio              : "Highlander from Łącko. Independent researcher exploring identity, trauma and narrative — and the Bronze Age past of my home valley."
   location         : "Łącko, Poland"
   alma_mater       : "Jagiellonian University (alma mater)"
   employer         : "User.com (Positive Group)"
@@ -147,7 +147,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "og-forest.jpg" # Social media default site image (1200x630)
-og_description           : "Małgorzata Maria Gancarczyk — literary scholar in a forest" # alt text for og_image
+og_description           : "Małgorzata Maria Gancarczyk in a forest" # alt text for og_image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
