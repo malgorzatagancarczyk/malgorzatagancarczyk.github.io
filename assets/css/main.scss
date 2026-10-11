@@ -74,7 +74,7 @@ h1, h2, h3, h4, .masthead, .greedy-nav, .page__title, .archive__item-title, .aut
 .dl-btn:hover { border-color: var(--global-base-color); color: var(--global-base-color) !important; }
 .dl-btn--primary { background: var(--global-base-color); border-color: var(--global-base-color); color: #fff !important; }
 .dl-btn--primary:hover { background: var(--global-link-color-hover); color: #fff !important; }
-.dl-portrait { justify-self: center; display: block; width: 100%; max-width: 20rem; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 160px 160px 12px 12px; border: 1px solid var(--global-dark-border-color); }
+.dl-portrait { justify-self: center; display: block; width: 100%; max-width: 20rem; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 50% 50% 12px 12px / 40% 40% 12px 12px; border: 1px solid var(--global-dark-border-color); }
 .dl-section { padding: 4rem 0 0; display: flex; flex-direction: column; gap: 1.5rem; }
 .dl-section:last-of-type { padding-bottom: 4rem; }
 .dl-h2 { margin: 0; font-size: 1.75rem; }
