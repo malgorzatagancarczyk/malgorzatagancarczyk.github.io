@@ -19,4 +19,26 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
+<!-- Google Scholar / Highwire Press metadata for publication pages -->
+{% if page.collection == 'publications' %}
+<meta name="citation_title" content="{{ page.title | strip_html | escape }}">
+<meta name="citation_author" content="{{ page.citation_author | default: 'Gancarczyk, Małgorzata' }}">
+<meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+<meta name="citation_language" content="{{ page.lang | default: 'pl' }}">
+<meta name="citation_abstract_html_url" content="{{ site.url }}{{ page.url }}">
+{% if page.journal %}<meta name="citation_journal_title" content="{{ page.journal | escape }}">{% endif %}
+{% if page.volume %}<meta name="citation_volume" content="{{ page.volume }}">{% endif %}
+{% if page.issue %}<meta name="citation_issue" content="{{ page.issue }}">{% endif %}
+{% if page.firstpage %}<meta name="citation_firstpage" content="{{ page.firstpage }}">{% endif %}
+{% if page.lastpage %}<meta name="citation_lastpage" content="{{ page.lastpage }}">{% endif %}
+{% if page.doi %}<meta name="citation_doi" content="{{ page.doi }}">{% endif %}
+{% if page.dissertation_institution %}<meta name="citation_dissertation_institution" content="{{ page.dissertation_institution | escape }}">{% endif %}
+{% if page.pdf %}{% if page.pdf contains '://' %}<meta name="citation_pdf_url" content="{{ page.pdf }}">{% else %}<meta name="citation_pdf_url" content="{{ site.url }}{{ page.pdf }}">{% endif %}{% endif %}
+{% for kw in page.keywords %}<meta name="citation_keywords" content="{{ kw | escape }}">
+{% endfor %}
+{% endif %}
+
+<!-- GA4 measurement ID (loaded only after consent, see footer/custom.html) -->
+{% if site.ga4_id and site.ga4_id != '' %}<script>window.GA4_ID = '{{ site.ga4_id }}';</script>{% endif %}
+
 <!-- end custom head snippets -->
