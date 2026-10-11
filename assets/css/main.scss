@@ -120,3 +120,7 @@ body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 
 /* About: one divider only (footer has its own) */
 .dl-firm { border-bottom: 0; }
+
+/* Keep sidebar inside the page so the footer never cuts it */
+#main { display: flow-root; }
+.page__footer { clear: both; }
