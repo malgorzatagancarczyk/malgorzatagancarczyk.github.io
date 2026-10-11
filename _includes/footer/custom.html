@@ -1,6 +1,31 @@
 <!-- start custom footer snippets -->
 
-<!-- Support for MathJax -->
-<script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
+<!-- Cookie consent + GA4 (GA loads only after the visitor accepts) -->
+<div id="cc-banner" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden style="position:fixed;left:1rem;right:1rem;bottom:1rem;max-width:34rem;margin:0 auto;z-index:9999;background:var(--global-bg-color);color:var(--global-text-color);border:1px solid var(--global-border-color);border-radius:8px;box-shadow:0 6px 24px rgba(0,0,0,.15);padding:1rem 1.25rem;font-size:.85rem;line-height:1.5">
+  <p style="margin:0 0 .75rem">This site uses Google Analytics cookies to count visits and see which texts people read. Nothing is tracked unless you agree. / Ta strona używa plików cookie Google Analytics do liczenia odwiedzin. Bez Twojej zgody nic nie jest mierzone.</p>
+  <button type="button" id="cc-accept" class="btn btn--primary" style="margin-right:.5rem">Accept / Akceptuję</button>
+  <button type="button" id="cc-decline" class="btn btn--inverse">Decline / Odrzucam</button>
+</div>
+<script>
+(function () {
+  var id = window.GA4_ID; if (!id) return;
+  var KEY = 'cc-consent', banner = document.getElementById('cc-banner');
+  function load() {
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id; document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || []; window.gtag = function(){ dataLayer.push(arguments); };
+    gtag('js', new Date()); gtag('config', id, { anonymize_ip: true });
+  }
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { localStorage.setItem(KEY, v); } catch (e) {} }
+  var c = get();
+  if (c === 'granted') load(); else if (c !== 'denied') banner.hidden = false;
+  document.getElementById('cc-accept').onclick = function () { set('granted'); banner.hidden = true; load(); };
+  document.getElementById('cc-decline').onclick = function () { set('denied'); banner.hidden = true; };
+  var f = document.querySelector('.page__footer-copyright');
+  if (f) { var a = document.createElement('a'); a.href = '#'; a.textContent = ' · Cookie settings';
+    a.onclick = function (e) { e.preventDefault(); try { localStorage.removeItem(KEY); } catch (x) {} location.reload(); }; f.appendChild(a); }
+})();
+</script>
 
 <!-- end custom footer snippets -->
