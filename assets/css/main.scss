@@ -114,3 +114,6 @@ body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 .page__footer-copyright { font-family: var(--dl-display); font-size: .8rem; color: var(--global-text-color-light); }
 .page__footer-copyright a { color: var(--global-text-color-light); text-decoration: none; }
 .page__footer-copyright a:hover { color: var(--global-base-color); }
+
+/* Slimmer About banner (~30% of the screen) */
+.dl-banner { height: 30vh; min-height: 13rem; max-height: 22rem; object-position: 65% 55%; }
