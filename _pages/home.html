@@ -1,1 +1,47 @@
-
+---
+layout: default
+permalink: /
+title: "Małgorzata Maria Gancarczyk – literary scholar"
+excerpt: "Narrative identity in speculative fiction and horror. Publications, CV and texts by Małgorzata Maria Gancarczyk."
+---
+{% include base_path %}
+<section class="dl-hero">
+<svg aria-hidden="true" viewBox="0 0 1280 520" preserveAspectRatio="none"><g fill="none" stroke="var(--global-base-color)" stroke-width="1.2"><path d="M0 420 C 180 360, 320 400, 480 330 S 820 250, 1000 300 S 1200 360, 1280 320"/><path d="M0 450 C 200 395, 330 430, 500 365 S 840 290, 1010 335 S 1210 395, 1280 360"/><path d="M0 480 C 210 430, 350 460, 520 400 S 860 330, 1020 370 S 1220 430, 1280 400"/><path d="M0 510 C 220 465, 370 490, 540 435 S 880 370, 1030 405 S 1230 465, 1280 440"/><path d="M640 120 C 700 90, 790 95, 830 130 S 820 210, 740 215 S 610 180, 640 120 Z"/><path d="M600 125 C 680 70, 810 70, 865 125 S 850 245, 740 250 S 560 200, 600 125 Z"/><path d="M560 130 C 660 50, 830 45, 900 120 S 885 280, 740 285 S 515 225, 560 130 Z"/></g></svg>
+<div class="dl-wrap dl-hero__grid">
+<div class="dl-hero__text">
+<p class="dl-eyebrow">Literary scholar · Łącko, Poland</p>
+<h1>Stories make us, and we cannot escape them.</h1>
+<p class="dl-lead">I write about narrative identity in speculative fiction and horror — from John Crowley’s <i>Engine Summer</i> to Łukasz Orbitowski’s <i>Kult</i> and <i>Jennifer’s Body</i> — and about the Bronze Age past of my home valley on the Dunajec.</p>
+<div class="dl-btns">
+<a class="dl-btn dl-btn--primary" href="{{ base_path }}/publications/">Read my work</a>
+<a class="dl-btn" href="https://orcid.org/0009-0009-3093-7439">ORCID</a>
+<a class="dl-btn" href="https://www.linkedin.com/in/ma%C5%82gorzata-maria-gancarczyk-4b843916b">LinkedIn</a>
+</div>
+</div>
+<img class="dl-portrait" src="{{ base_path }}/images/portrait-main.jpg" alt="Małgorzata Maria Gancarczyk in the mountains at golden hour">
+</div>
+</section>
+<div class="dl-wrap">
+<section class="dl-section" aria-labelledby="pubs">
+<h2 id="pubs" class="dl-h2">Publications</h2>
+<div>
+{% assign pubs = site.publications | sort: "date" | reverse %}{% for pub in pubs %}<article class="dl-pub">
+<p class="dl-pub__year">{{ pub.date | date: "%Y" }}</p>
+<div class="dl-pub__body">
+<p class="dl-pub__meta">{{ site.publication_category[pub.category].title | default: "Publication" }} · {{ pub.venue }}</p>
+<h3><a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a></h3>
+<p class="dl-pub__excerpt">{{ pub.excerpt | strip_html }}</p>
+<div class="dl-pub__links"><a href="{{ base_path }}{{ pub.url }}">Abstract</a>{% if pub.paperurl %}<a href="{{ pub.paperurl }}">Full text</a>{% endif %}{% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">DOI {{ pub.doi }}</a>{% endif %}</div>
+</div>
+</article>{% endfor %}
+</div>
+</section>
+<section class="dl-section" aria-labelledby="interests">
+<h2 id="interests" class="dl-h2">What I work on</h2>
+<div class="dl-interests">
+<div><h3>Narrative identity</h3><p>How narrators build — and impose — a self through storytelling. Mieke Bal, Ricoeur, focalization.</p></div>
+<div><h3>Speculative fiction &amp; horror</h3><p>John Crowley, Łukasz Orbitowski, <i>Jennifer’s Body</i> — genre texts that think about who we are.</p></div>
+<div><h3>The valley’s deep past</h3><p>The Lusatian culture and the Bronze Age hillfort at Maszkowice, next to Łącko.</p></div>
+</div>
+</section>
+</div>
