@@ -117,3 +117,6 @@ body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 
 /* Slimmer About banner (~30% of the screen) */
 .dl-banner { height: 30vh; min-height: 13rem; max-height: 22rem; object-position: 65% 55%; }
+
+/* About: one divider only (footer has its own) */
+.dl-firm { border-bottom: 0; }
