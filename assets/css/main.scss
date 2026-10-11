@@ -107,3 +107,10 @@ h1, h2, h3, h4, .masthead, .greedy-nav, .page__title, .archive__item-title, .aut
 body { margin-bottom: 0 !important; padding-bottom: 0 !important; }
 .author__avatar img { aspect-ratio: 1 / 1; object-fit: cover; object-position: 50% 30%; border-radius: 50%; }
 .author__urls li { white-space: normal; overflow: visible; text-overflow: clip; }
+
+/* Compact one-line footer */
+.page__footer { margin-top: 3em; }
+.page__footer footer { padding: 1.25rem 1.5rem !important; max-width: 72rem; margin: 0 auto; }
+.page__footer-copyright { font-family: var(--dl-display); font-size: .8rem; color: var(--global-text-color-light); }
+.page__footer-copyright a { color: var(--global-text-color-light); text-decoration: none; }
+.page__footer-copyright a:hover { color: var(--global-base-color); }
