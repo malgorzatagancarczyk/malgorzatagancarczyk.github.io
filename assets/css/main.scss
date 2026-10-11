@@ -142,3 +142,11 @@ img.author__avatar, .author__avatar img { aspect-ratio: auto !important; object-
 .dl-hero__grid { max-width: 84rem; grid-template-columns: minmax(16rem, 24rem) 1fr; gap: 4rem; }
 .dl-portrait { justify-self: start; max-width: 24rem; }
 @media (max-width: 52rem) { .dl-hero__grid { grid-template-columns: 1fr; gap: 2rem; padding-top: 3rem; } .dl-portrait { justify-self: center; max-width: 20rem; } }
+
+/* Hero in px (rem scales with the template's root size): centred block, aligned with the nav */
+.dl-hero__grid { max-width: 1180px; grid-template-columns: minmax(260px, 380px) 1fr; gap: 72px; padding-left: 24px; padding-right: 24px; }
+.dl-portrait { max-width: 380px; }
+.dl-lead { max-width: 640px; }
+@media (max-width: 52rem) { .dl-hero__grid { grid-template-columns: 1fr; gap: 32px; } .dl-portrait { max-width: 320px; } }
+/* About banner: keep the cap in frame */
+.dl-banner { object-position: 65% 18%; }
