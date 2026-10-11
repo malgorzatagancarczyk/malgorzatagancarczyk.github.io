@@ -45,4 +45,15 @@
 <link rel="preconnect" href="https://fonts.bunny.net">
 <link rel="stylesheet" href="https://fonts.bunny.net/css?family=bricolage-grotesque:500,700|newsreader:400,400i,500&display=swap">
 
+<!-- Site name for Google results (instead of "GitHub") -->
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Małgorzata Maria Gancarczyk","alternateName":["Małgorzata Gancarczyk","M. Gancarczyk"],"url":"https://malgorzatagancarczyk.github.io/"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Małgorzata Maria Gancarczyk","url":"https://malgorzatagancarczyk.github.io/","jobTitle":"Literary scholar","alumniOf":{"@type":"CollegeOrUniversity","name":"Jagiellonian University"},"sameAs":["https://orcid.org/0009-0009-3093-7439","https://www.linkedin.com/in/ma%C5%82gorzata-maria-gancarczyk-4b843916b"]}
+</script>
+{% endif %}
+<meta property="og:site_name" content="Małgorzata Maria Gancarczyk">
+
 <!-- end custom head snippets -->
