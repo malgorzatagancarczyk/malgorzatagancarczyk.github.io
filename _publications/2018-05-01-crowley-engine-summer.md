@@ -1,6 +1,7 @@
 ---
 title: "Późne lato Johna Crowleya jako postmodernistyczna wizja procesualnej koncepcji tożsamości"
 seo_title: "Crowley’s Engine Summer and processual identity (PL)"
+title_en: "John Crowley’s <i>Engine Summer</i> as a postmodernist vision of the processual concept of identity"
 collection: publications
 category: manuscripts
 permalink: /publication/2018-crowley-engine-summer
@@ -19,7 +20,9 @@ keywords: [John Crowley, Engine Summer, narratology, narrative identity, postmod
 citation: 'Gancarczyk, M. (2018). &quot;Późne lato Johna Crowleya jako postmodernistyczna wizja procesualnej koncepcji tożsamości.&quot; <i>Creatio Fantastica</i>, 1(58), 155–175. https://doi.org/10.5281/zenodo.1419554'
 ---
 
-**English title:** <i>John Crowley’s “Engine Summer”: A Postmodern Vision of the Processual Construction of Identity</i> (article in Polish)
+**English title:** John Crowley’s <i>Engine Summer</i> as a postmodernist vision of the processual concept of identity (article in Polish)
+
+Written for Krzysztof M. Maj’s poetics course · Faculty of Polish Studies, Jagiellonian University, during my second year (2018) — my debut publication
 
 The article reads <i>Engine Summer</i> as a novel built around the role of narrative in constructing both individual and collective identity. Drawing on Mieke Bal’s narratology, the concept of paratextuality and Piotr Kubiński’s notion of emersion, it traces how the novel stereotypes the Other and controls social relationships from the top down. It also shows how the book draws the reader’s attention to the medium itself — to the embodied text that co-creates, records and passes on narrative identity, an idea realised literally in Crowley’s post-apocalyptic world — and how Campbell’s monomyth resonates through the narrative.
 

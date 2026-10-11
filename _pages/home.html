@@ -29,7 +29,7 @@ excerpt: "Narrative identity in speculative fiction and horror. Publications, CV
 <p class="dl-pub__year">{{ pub.date | date: "%Y" }}</p>
 <div class="dl-pub__body">
 <p class="dl-pub__meta">{{ site.publication_category[pub.category].title | default: "Publication" }} · {{ pub.venue }}</p>
-<h3><a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a></h3>
+<h3><a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>{% if pub.title_en %} <span class="dl-pub__en">[{{ pub.title_en }}]</span>{% endif %}</h3>
 <p class="dl-pub__excerpt">{{ pub.excerpt | strip_html }}</p>
 <div class="dl-pub__links"><a href="{{ base_path }}{{ pub.url }}">Abstract</a>{% if pub.paperurl %}<a href="{{ pub.paperurl }}">Full text</a>{% endif %}{% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">DOI {{ pub.doi }}</a>{% endif %}</div>
 </div>

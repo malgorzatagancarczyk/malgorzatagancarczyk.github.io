@@ -16,13 +16,14 @@ Research interests
 
 Education
 ------
-* **BA in Polish Studies (Anthropological and Cultural track)**, Jagiellonian University in Kraków, 2020 — final grade: 5 (very good)
-  * Thesis: <i>Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego Kult</i> ([PDF](/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf) · [doi:10.5281/zenodo.23298226](https://doi.org/10.5281/zenodo.23298226))
+* **BA in Polish Studies (Anthropological and Cultural track)**, Jagiellonian University in Kraków, 2020 — final grade: 5 (very good), with distinction
+  * Thesis: <i>Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego Kult</i> [Narrative strategy and the illusory nature of self-interpretation in Łukasz Orbitowski’s <i>Kult</i>] ([PDF](/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf) · [doi:10.5281/zenodo.23298226](https://doi.org/10.5281/zenodo.23298226))
   * Supervisor: dr Michalina Kmiecik
 
 Publications
 ------
-* Gancarczyk, M. (2018). “Późne lato Johna Crowleya jako postmodernistyczna wizja procesualnej koncepcji tożsamości.” <i>Creatio Fantastica</i>, 1(58), 155–175. [doi:10.5281/zenodo.1419554](https://doi.org/10.5281/zenodo.1419554)
+* Gancarczyk, M. (2018). “Późne lato Johna Crowleya jako postmodernistyczna wizja procesualnej koncepcji tożsamości” [John Crowley’s <i>Engine Summer</i> as a postmodernist vision of the processual concept of identity]. <i>Creatio Fantastica</i>, 1(58), 155–175. [doi:10.5281/zenodo.1419554](https://doi.org/10.5281/zenodo.1419554)
+  * Written for Krzysztof M. Maj’s poetics course, Jagiellonian University, during my second year — debut publication
 
 Professional experience
 ------

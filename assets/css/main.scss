@@ -84,6 +84,7 @@ h1, h2, h3, h4, .masthead, .greedy-nav, .page__title, .archive__item-title, .aut
 .dl-pub__body { display: flex; flex-direction: column; gap: .5rem; }
 .dl-pub__meta { margin: 0; font-family: var(--dl-display); font-size: .8rem; letter-spacing: .06em; text-transform: uppercase; color: var(--global-text-color-light); }
 .dl-pub h3 { margin: 0; font-family: var(--dl-body); font-size: 1.35rem; font-weight: 500; line-height: 1.3; }
+.dl-pub__en { display: block; margin-top: .25rem; font-size: .8em; font-weight: 400; color: var(--dl-text-2); }
 .dl-pub h3 a { color: var(--global-text-color) !important; text-decoration: none; }
 .dl-pub__excerpt { margin: 0; color: var(--dl-text-2); }
 .dl-pub__links { display: flex; flex-wrap: wrap; gap: 1.25rem; font-family: var(--dl-display); font-size: .95rem; }

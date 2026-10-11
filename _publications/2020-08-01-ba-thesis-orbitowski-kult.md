@@ -1,12 +1,13 @@
 ---
 title: "Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego <i>Kult</i>"
 seo_title: "Narrative strategy in Orbitowski’s Kult — BA thesis (PL)"
+title_en: "Narrative strategy and the illusory nature of self-interpretation in Łukasz Orbitowski’s <i>Kult</i>"
 collection: publications
 category: theses
 permalink: /publication/2020-ba-thesis-orbitowski-kult
 excerpt: 'How the narrator of Łukasz Orbitowski’s <i>Kult</i> builds — and imposes — an identity through storytelling.'
 date: 2020-08-01
-venue: 'BA thesis, Faculty of Polish Studies, Jagiellonian University in Kraków'
+venue: 'BA thesis (with distinction), Faculty of Polish Studies, Jagiellonian University in Kraków'
 paperurl: '/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf'
 pdf: '/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf'
 doi: '10.5281/zenodo.23298226'
@@ -16,9 +17,9 @@ keywords: [narratology, focalization, narrative identity, emersion, Łukasz Orbi
 citation: 'Gancarczyk, M. (2020). <i>Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego Kult</i> [BA thesis, Jagiellonian University, Kraków]. Supervisor: dr Michalina Kmiecik. https://doi.org/10.5281/zenodo.23298226'
 ---
 
-**English title:** <i>Narrative Strategy and the Illusion of Self-Interpretation in Łukasz Orbitowski’s Kult</i> (thesis in Polish)
+**English title:** Narrative strategy and the illusory nature of self-interpretation in Łukasz Orbitowski’s <i>Kult</i> (thesis in Polish)
 
-Supervisor: dr Michalina Kmiecik · Faculty of Polish Studies, Jagiellonian University, 2020
+Supervisor: dr Michalina Kmiecik · Faculty of Polish Studies, Jagiellonian University, 2020 · graduated with distinction
 
 ## Abstract
 
