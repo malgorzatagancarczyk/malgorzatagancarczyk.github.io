@@ -18,7 +18,22 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Małgorzata Maria Gancarczyk",
+  "alternateName": "Małgorzata Gancarczyk",
+  "jobTitle": "Literaturoznawczyni / literary scholar",
+  "url": "https://malgorzatagancarczyk.github.io",
+  "sameAs": [
+    "https://orcid.org/0009-0009-3093-7439",
+    "https://scholar.google.com/citations?user=_DKFTvsAAAAJ",
+    "https://zenodo.org/records/23298226",
+    "https://www.linkedin.com/in/ma%C5%82gorzata-maria-gancarczyk-4b843916b/"
+  ]
+}
+</script>
 <!-- Google Scholar / Highwire Press metadata for publication pages -->
 {% if page.collection == 'publications' %}
 <meta name="citation_title" content="{{ page.title | strip_html | escape }}">
