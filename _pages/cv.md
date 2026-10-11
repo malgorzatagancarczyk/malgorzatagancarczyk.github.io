@@ -16,7 +16,7 @@ Research interests
 Education
 ======
 * **BA in Polish Studies (Anthropological and Cultural track)**, Jagiellonian University in Kraków, 2020 — final grade: 5 (very good)
-  * Thesis: <i>Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego Kult</i> ([PDF](/files/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf))
+  * Thesis: <i>Strategia narracyjna a iluzoryczność auto-interpretacji w powieści Łukasza Orbitowskiego Kult</i> ([PDF](/gancarczyk-2020-ba-thesis-orbitowski-kult.pdf))
   * Supervisor: dr Michalina Kmiecik
 
 Publications
