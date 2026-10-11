@@ -156,6 +156,9 @@ social:
   links: # An array of links to social media profiles
 
 
+# GA4 measurement ID (G-XXXXXXX). Loaded only after cookie consent - see _includes/footer/custom.html
+ga4_id                   : ""
+
 # Analytics
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
